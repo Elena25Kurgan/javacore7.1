@@ -1,0 +1,266 @@
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
++++ b/.idea/.gitignore	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+--- /dev/null	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
++++ b/.idea/compiler.xml	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <annotationProcessing>
++      <profile name="Maven default annotation processors profile" enabled="true">
++        <sourceOutputDir name="target/generated-sources/annotations" />
++        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
++        <outputRelativeToContentRoot value="true" />
++        <module name="geo-service" />
++      </profile>
++    </annotationProcessing>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/jarRepositories.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/jarRepositories.xml b/.idea/jarRepositories.xml
+new file mode 100644
+--- /dev/null	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
++++ b/.idea/jarRepositories.xml	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RemoteRepositoriesConfiguration">
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Central Repository" />
++      <option name="url" value="https://repo.maven.apache.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="central" />
++      <option name="name" value="Maven Central repository" />
++      <option name="url" value="https://repo1.maven.org/maven2" />
++    </remote-repository>
++    <remote-repository>
++      <option name="id" value="jboss.community" />
++      <option name="name" value="JBoss Community repository" />
++      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
++    </remote-repository>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
++++ b/.idea/misc.xml	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="MavenProjectsManager">
++    <option name="originalFiles">
++      <list>
++        <option value="$PROJECT_DIR$/pom.xml" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+new file mode 100644
+--- /dev/null	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
++++ b/.idea/runConfigurations.xml	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="RunConfigurationProducerService">
++    <option name="ignoredProducers">
++      <set>
++        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
++      </set>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
++++ b/.idea/vcs.xml	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision 03bd34efa6462c9414ac5cf50bd80ed75f2b7b9e)
++++ b/pom.xml	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
+@@ -20,4 +20,24 @@
+         </plugins>
+     </build>
+ 
++    <dependencies>
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter-engine</artifactId>
++            <version>5.1.0</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>org.mockito</groupId>
++            <artifactId>mockito-junit-jupiter</artifactId>
++            <version>4.3.1</version>
++            <scope>test</scope>
++        </dependency>
++        <dependency>
++            <groupId>junit</groupId>
++            <artifactId>junit</artifactId>
++            <version>RELEASE</version>
++            <scope>test</scope>
++        </dependency>
++    </dependencies>
+ </project>
+\ No newline at end of file
+Index: src/test/java/MessageSenderTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/MessageSenderTest.java b/src/test/java/MessageSenderTest.java
+new file mode 100644
+--- /dev/null	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
++++ b/src/test/java/MessageSenderTest.java	(revision 8fe3143f484e2536bf225cdcf705b0cb0702d088)
+@@ -0,0 +1,93 @@
++import org.junit.Test;
++import org.junit.jupiter.api.Assertions;
++import org.mockito.Mockito;
++import ru.netology.entity.Country;
++import ru.netology.entity.Location;
++import ru.netology.geo.GeoService;
++import ru.netology.geo.GeoServiceImpl;
++import ru.netology.i18n.LocalizationService;
++import ru.netology.i18n.LocalizationServiceImpl;
++import ru.netology.sender.MessageSender;
++import ru.netology.sender.MessageSenderImpl;
++
++import java.util.HashMap;
++import java.util.Map;
++
++public class MessageSenderTest {
++
++    @Test
++    public void messageSenderTestRush() {
++        LocalizationService localizationServiceImpl = Mockito.mock(LocalizationService.class);
++        Mockito.when(localizationServiceImpl.locale(Country.RUSSIA))
++               .thenReturn("Добро пожаловать");
++
++        GeoService geoServiceImpl = Mockito.mock(GeoService.class);
++        Mockito.when(geoServiceImpl.byIp(Mockito.contains("172.")))
++                .thenReturn(new Location("Moscow", Country.RUSSIA, null, 0));
++
++        Map<String, String> headers = new HashMap<String, String>();
++        headers.put(MessageSenderImpl.IP_ADDRESS_HEADER, "172.123.12.19");
++
++        MessageSender messageSenderExp = new MessageSenderImpl(geoServiceImpl, localizationServiceImpl);
++
++        GeoService geoService = new GeoServiceImpl();
++        LocalizationService localizationService = new LocalizationServiceImpl();
++        MessageSender messageSender = new MessageSenderImpl(geoService, localizationService);
++
++        Assertions.assertEquals(messageSender.send(headers), messageSenderExp.send(headers));
++  }
++
++    @Test
++    public void messageSenderTestEng() {
++        LocalizationService localizationServiceImpl = Mockito.mock(LocalizationService.class);
++        Mockito.when(localizationServiceImpl.locale(Country.USA))
++                .thenReturn("Welcome");
++
++        GeoService geoServiceImpl = Mockito.mock(GeoService.class);
++        Mockito.when(geoServiceImpl.byIp(Mockito.contains("96.")))
++                .thenReturn(new Location("New York", Country.USA, null,  0));
++
++        Map<String, String> headers = new HashMap<String, String>();
++        headers.put(MessageSenderImpl.IP_ADDRESS_HEADER, "96.44.100.167");
++
++        MessageSender messageSenderExp = new MessageSenderImpl(geoServiceImpl, localizationServiceImpl);
++
++        GeoService geoService = new GeoServiceImpl();
++        LocalizationService localizationService = new LocalizationServiceImpl();
++        MessageSender messageSender = new MessageSenderImpl(geoService, localizationService);
++
++        Assertions.assertEquals(messageSender.send(headers), messageSenderExp.send(headers));
++    }
++
++    @Test
++    public void byIpTest() {
++        GeoService geoServiceImpl = Mockito.mock(GeoService.class);
++        Mockito.when(geoServiceImpl.byIp(Mockito.contains("172.")))
++                .thenReturn(new Location("Moscow", Country.RUSSIA, null, 0));
++        Mockito.when(geoServiceImpl.byIp(Mockito.contains("96.")))
++                .thenReturn(new Location("New York", Country.USA, null,  0));
++        Location locationRusImpl = geoServiceImpl.byIp("172.103.772.09");
++        Location locationEngImpl = geoServiceImpl.byIp("96.99.082.66");
++
++        GeoService geoService = new GeoServiceImpl();
++        Location locationRus = geoService.byIp("172.103.772.09");
++        Location locationEng = geoService.byIp("96.99.082.66");
++
++        Assertions.assertEquals(locationRus.getCountry(), locationRusImpl.getCountry());
++        Assertions.assertEquals(locationEng.getCountry(), locationEngImpl.getCountry());
++    }
++
++    @Test
++    public void localeTest() {
++        LocalizationService localizationServiceImpl = Mockito.mock(LocalizationService.class);
++        Mockito.when(localizationServiceImpl.locale(Country.RUSSIA))
++                .thenReturn("Добро пожаловать");
++        Mockito.when(localizationServiceImpl.locale(Country.USA))
++                .thenReturn("Welcome");
++
++        LocalizationService localizationService = new LocalizationServiceImpl();
++        Assertions.assertEquals(localizationService.locale(Country.RUSSIA), localizationServiceImpl.locale((Country.RUSSIA)));
++        Assertions.assertEquals(localizationService.locale(Country.USA), localizationServiceImpl.locale((Country.USA)));
++
++    }
++}
